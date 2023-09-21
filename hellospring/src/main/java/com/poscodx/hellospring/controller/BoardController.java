@@ -14,7 +14,7 @@ public class BoardController {
 	@ResponseBody
 	@RequestMapping("/board/write")
 	public String write() {
-		return "BoardController.write";
+		return "BoardController.write()";
 	}
 
 	// /board/view/10

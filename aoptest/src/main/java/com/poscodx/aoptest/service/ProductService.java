@@ -9,9 +9,9 @@ public class ProductService {
 
 	public ProductVo find(String keyword) {
 		ProductVo vo = new ProductVo(keyword);
-		if (1 - 1 == 0) {
-			throw new RuntimeException("ProductService.find() Exception");
-		}
+//		if (1 - 1 == 0) {
+//			throw new RuntimeException("ProductService.find() Exception");
+//		}
 		return vo;
 	}
 
