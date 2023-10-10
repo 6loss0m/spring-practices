@@ -1,0 +1,31 @@
+[src/main/java]
+	com.poscodx.container.config.user
+		|-- AppConfig.java
+	com.poscodx.container.user
+		|-- User.java
+		|-- Friend.java
+	com.poscodx.container.user.test
+		|-- XmlConfigTest.java
+		|-- JavaConigTest.java
+		
+	com.poscodx.container.config.soundsystem
+		|-- CDPlayerConfig.java
+	com.poscodx.container.soundsystem
+		|-- CDPlayer.java
+		|-- CompactDisc.java
+		|-- HighSchoolRapper.java
+
+	com.poscodx.container.videosystem
+	
+[src/main/resources]
+		com.poscodx.container.user
+			|-- applicationContext01.xml (Auto)
+			|-- applicationContext02.xml (Explicit)
+		com.poscodx.container.config.soundsystem
+			|-- applicationContext.xml
+
+[src/test/java]
+	com.poscodx.container.soundsystem
+		|-- CDPlayerXmlConfigTest.java
+		|-- CDPlayerJavaConfigTest.java
+[src/test/resources]
